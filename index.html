@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Jokenpo devClub</title>
+</head>
+
+<body>
+    <div class="video">
+        <video src="assets/video/jokepo.mp4" autoplay muted loop></video>
+    </div>
+    <audio id="background-music" src="assets/audio/jazz.mp3" autoplay loop></audio>
+    <section class="container">
+        <h1>Jokenpô</h1>
+
+        <div class="your-vs-alexa">
+            <div class="play">
+                <img class="hand-player" src="assets/img/rock.png" alt="">
+                <h2>Você</h2>
+                <p class="your-score"><span>0</span></p>
+            </div>
+            <div>
+                <img class="hand-alexa" src="assets/img/rock.png" alt="">
+                <h2>Alexa</h2>
+                <p class="machine-score"><span>0</span></p>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="rock"> &#x1F44A</button>
+            <button id="paper"> &#x1f590</button>
+            <button id="scissors">&#x270c</button>
+
+            <audio id="win-sound" src="assets/audio/mixkit-video-game-treasure-2066.wav"></audio>
+            <audio id="lose-sound" src="assets/audio/mixkit-player-losing-or-failing-2042.wav"></audio>
+            <audio id="tie-sound" src="assets/audio/mixkit-game-notification-wave-alarm-987.wav"></audio>
+        </div>
+        <p class="result"></p>
+
+        <div class="music">
+            <button id="pause-button">Pause Music</button>
+            <button id="play-button">Play Music</button>
+        </div>
+
+    </section>
+  
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
